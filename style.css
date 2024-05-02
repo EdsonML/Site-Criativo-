@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.cabeçalho {
+    background-color: #4F6F52;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.cabeçalho-título {
+    color: #DDDDDD;
+    font-size: 18px;
+}
+
+.cabeçalho-imagem {
+    width: 10%;
+
+}
+
+.cabeçalho-lista {
+    display: inline-block;
+    color: #DDDDDD;
+
+}
+
+.cabeçalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 15px;
+
+}
+
+.apresentacao-imagem {
+    width: 24%;
+}
+
+.apresentacao {
+    background-image: linear-gradient(#4F6F52, #D2E3C8);
+    color: #2b3a2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.apresentacao-div-conteudo {
+    width: 35%;
+
+}
+
+.apresentacao-titulo {
+    padding: 24px;
+
+}
+
+.professores-imagem {
+    width: 120px;
+}
+
+.professores-titulo {
+    color: #2b3a2c;
+    font-size: 24px;
+    text-align: center;
+}
+
+.professores-icones {
+    width: 24px;
+    padding: 16px  0px;
+    
+}
+
+.professores-div {
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.professores-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color:#86A789;
+    text-align: center;
+    color:white; 
+  
+
+}
+
+.endereco{
+    padding: 12px   12px;  
+    font-size:24px;
+}
+
